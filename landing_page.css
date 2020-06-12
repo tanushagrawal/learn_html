@@ -1,13 +1,23 @@
 body {
     font-family: Candara;
+    margin: 0;
 }
 
 nav {
     background-color: black;
 }
 
+#title{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 10px;
+}
 .nav-link {
     text-decoration: none;
     color: white;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 300;
 }
 
