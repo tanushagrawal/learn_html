@@ -8,23 +8,41 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="" type="text/css">
+    <style>
+        .side-label{
+            line-height: 2;
+             
+            
+        }
+    </style>
 </head>
 
 <body style="font-family: Candara;">
-    <h1 style="text-align: center;">This is A from</h1>
-    <form action="">
-        First Name: <input type="text"><br>
-        Last Name : <input type="text"><br>
-        Email : <input type="email" name="" required><br>
-        Birthday : <input type="date" name="" id=""><br>
-        Gender: <input type="radio" name="gender"> Male <input type="radio" name="gender">Female
+    <h1 style="text-align: center;">This is a from</h1>
+    <form method="POST">
+        <!-- name attribute is required for GET method -->
+
+        <span class="side-label">First Name:</span> <input type="text" name="firstname"><br>
+        <span class="side-label">Last Name :</span> <input type="text" name="lastname"><br>
+        <span class="side-label">Email :</span> <input type="email" name="email" required><br>
+        <span class="side-label">password :</span> <input type="password" name="password" id=""> <br>
+        <span class="side-label">Birthday :</span> <input type="date" name="birthday" id=""><br>
+        <span class="side-label">Gender :</span> <input type="radio" name="gender" va> Male <input type="radio"
+            name="gender">Female
         <br>
-         
+        <span>Pets:</span> <input type="checkbox" name="pets" id=""> cats <input type="checkbox" name="pets" id="">dogs <br>
+        <span>cars:</span> <select name="cars">
+            <option value="1">Audi</option>
+            <option value="2"> Lamborgini</option>
+            <option value="3">Benz</option>
+        </select> <br>
+
+
         <input type="submit" value="Register !">
         <input type="reset" value="Reset">
 
     </form>
-
+ 
 </body>
 
 </html>
