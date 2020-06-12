@@ -1,18 +1,28 @@
 body {
-    font-family: Candara;
+    color: white;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-image: url('wall2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
 }
-
+header{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
 nav {
-    background-color: black;
+    /* background-color: black; */
 }
 
-#title{
+#title {
     color: white;
     font-size: 40px;
     font-weight: 100;
     padding: 10px;
+    text-align: center;
 }
+
 .nav-link {
     text-decoration: none;
     color: white;
@@ -20,4 +30,3 @@ nav {
     font-size: 30px;
     font-weight: 300;
 }
-
