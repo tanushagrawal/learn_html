@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    order: 3;
+    /* flex-grow: 50px; */
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-weight: 500;
+    text-align: center;
+}
+
+.image {
+    display: inline-flex;
+    width: 400px;
+    /* height: 400px; */
+    object-fit: contain;
+    margin: 30px;
+    /* margin: 0px; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px;
+    transition: transform 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.image:hover {
+    transform: scale(1.2);
+    flex: 2;
+    flex-grow: 2;
+    /* margin: 40px; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* transform: skewY(2deg); */
+}
+
+.card {
+    width: fit-content;
+}

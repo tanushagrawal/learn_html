@@ -1,32 +1,53 @@
-body {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    background-image: url('wall2.jpg');
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-header{
-    color: white;
-    text-align: center;
-    font-weight: 100;
-}
-nav {
-    /* background-color: black; */
-}
+    @font-face {
+        font-family: delirium;
+        src: url('DeliriumNcv-Vm5e.ttf');
+    }
 
-#title {
-    color: white;
-    font-size: 40px;
-    font-weight: 100;
-    padding: 10px;
-    text-align: center;
-}
+    @font-face {
+        font-family: monument;
+        src: url('MonumentValley12-X55o.otf');
+    }
 
-.nav-link {
-    text-decoration: none;
-    color: white;
-    margin: auto;
-    font-size: 30px;
-    font-weight: 300;
-}
+    body {
+        color: white;
+        /* font-family: 'Roboto', sans-serif;
+         */
+        font-family: 'Montserrat', sans-serif;
+        ;
+        margin: 0;
+        background-image: url('wall2.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    header {
+        color: white;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    nav {
+        background-color: rgba(17, 17, 17, 0.5);
+
+    }
+
+    #title {
+        color: white;
+        font-size: 60px;
+        font-weight: 100;
+        /* letter-spacing: 5px; */
+        padding: 10px;
+        text-align: center;
+        /* font-family: delirium;
+         */
+        font-family: monument;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: white;
+        margin: auto;
+        font-size: 18px;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
